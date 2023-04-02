@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <title>Organick</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-container">
+                <a class="logo-group" href="./index.html">
+                    <img src="./img/logo.svg" alt="company logo" width="36">
+                    <p class="logo">Organick</p>
+                </a>
+                <nav class="site-nav">
+                    <ul class="nav-list">
+                        <li class="nav-list-item"><a class="nav-link" href="./index.html">Home</a></li>
+                        <li class="nav-list-item"><a class="nav-link" href="./about-us.html">About</a></li>
+                        <li class="nav-list-page">
+                            <a class="nav-link" href="">Pages</a>
+                            <svg width="10" height="5">
+                                <use href="./img/sprite-main-page.svg#dropdown-icon"></use>
+                            </svg>
+                            <ul class="dropdown-list">
+                                <li class="dropdown-list-item"><a class="dropdown-link"
+                                        href="./services.html">Services</a>
+                                </li>
+                                <li class="dropdown-list-item"><a class="dropdown-link" href="./our-team.html">Our
+                                        Team</a>
+                                </li>
+                                <li class="dropdown-list-item"><a class="dropdown-link" href="contact-us.html">Contact
+                                        Us</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-list-item"><a class="nav-link" href="./shop.html">Shop</a></li>
+                        <li class="nav-list-item"><a class="nav-link" href="./projects.html">Projects</a></li>
+                        <li class="nav-list-item"><a class="nav-link" href="./recent-news.html">News</a></li>
+                    </ul>
+                </nav>
+                <ul class="client-tools">
+                    <li class="search-box">
+                        <form class="search-form" autocomplete="on">
+                            <input class="search-input" type="text" id="search" name="search">
+                            <button class="search-btn" type="submit" id="search" name="search">
+                                <svg width="21" height="21">
+                                    <use href="./img/sprite-main-page.svg#search"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </li>
+                    <li class="cart-item"><a class="cart" href=""><span>Cart (0)</span></a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <!-- Hero -->
+            <section class="hero-section">
+                <div class="hero-content">
+                    <h2>100% Natural Food</h2>
+                    <h1 class="hero-header">Choose the best
+                        healthier way <br>
+                        of life</h1>
+                    <a class="shop-btn-yellow read-more" href="./shop.html">Explore Now</a>
+                </div>
+            </section>
+            <!-- What do we offer -->
+            <section class="offer-section">
+                <h2 hidden>What do we offer</h2>
+                <div class="container">
+                    <ul class="offer-list">
+                        <li class="offer-list-item">
+                            <a class="offer-list-link fruits" href="./shop.html">
+                                <h2 class="offer-list-header">Natural!!</h2>
+                                <h3 class="offer-list-text">Get Garden Fresh Fruits</h3>
+                            </a>
+                        </li>
+                        <li class="offer-list-item">
+                            <a class="offer-list-link" href="./shop.html">
+                                <h2>Offer!!</h2>
+                                <h3 class="offer-list-text">Get 10% off <br> on Vegetables</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- About us -->
+            <section class="about-section">
+                <div class="about-content">
+                    <h2>About us</h2>
+                    <h3 class="about-header header">We Believe in Working Accredited Farmers</h3>
+                    <p>Simply dummy text of the printing and typesetting industry. Lorem had ceased to
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley.
+                    </p>
+                    <ul class="about-list">
+                        <li class="about-list-item organic">
+                            <div class="about-text">
+                                <h4 class="list-name">Organic Foods Only</h4>
+                                <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                            </div>
+                        </li>
+                        <li class="about-list-item quality">
+                            <div class="about-text">
+                                <h4 class="list-name">Quality Standards</h4>
+                                <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a class="shop-btn" href="./shop.html">Shop Now</a>
+                </div>
+            </section>
+            <!-- Our products -->
+            <section>
+                <div class="container shop-box">
+                    <div class="products-header-box">
+                        <h2>Categories</h2>
+                        <h3 class="header">Our products</h3>
+                    </div>
+                    <ul class="product-list">
+                        <li class="product-card">
+                            <a class="product-link" href="./shop-pages/calabrese-broccoli.html">
+                                <p class="product-category">Vegetable</p>
+                                <img src="./img/broccoli.png" alt="Calabrese Broccoli" width="279" height="324">
+                                <h4 class="product-name">Calabrese Broccoli</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$13.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a class="product-link" href="./shop-pages/fresh-banana-fruits.html">
+                                <p class="product-category">Fresh</p>
+                                <img src="./img/banana.png" alt="Fresh Banana Fruits" width="279" height="324">
+                                <h4 class="product-name">Fresh Banana Fruits</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$14.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/pistachios.html" class="product-link">
+                                <p class="product-category">Millets</p>
+                                <img src="./img/pistachios.png" alt="Pistachios" width="279" height="324">
+                                <h4 class="product-name">Pistachios</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$15.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/vegan-red-tomato.html" class="product-link">
+                                <p class="product-category">Vegetable</p>
+                                <img src="./img/tomato.png" alt="Vegan Red Tomato" width="279" height="324">
+                                <h4 class="product-name">Vegan Red Tomato</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$17.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/mung-bean.html" class="product-link">
+                                <p class="product-category">Health</p>
+                                <img src="./img/mung-bean.png" alt="Mung Bean" width="279" height="324">
+                                <h4 class="product-name">Mung Bean</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$11.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/brown-hazelnut.html" class="product-link">
+                                <p class="product-category">Nuts</p>
+                                <img src="./img/hazelnut.png" alt="Brown Hazelnut" width="279" height="324">
+                                <h4 class="product-name">Brown Hazelnut</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$12.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/eggs.html" class="product-link">
+                                <p class="product-category">Fresh</p>
+                                <img src="./img/eggs.png" alt="Eggs" width="279" height="324">
+                                <h4 class="product-name">Eggs</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$17.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/zelco-suji-elaichi-rusk.html" class="product-link">
+                                <p class="product-category">Fresh</p>
+                                <img src="./img/bread.png" alt="Zelco Suji Elaichi Rusk" width="279" height="324">
+                                <h4 class="product-name">Zelco Suji Elaichi Rusk</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$15.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <a class="shop-btn load-more" href="./shop.html">load more</a>
+                </div>
+            </section>
+            <!-- Testimonial -->
+            <section class="testimonial">
+                <div class="testimonial-box">
+                    <h2>Testimonial</h2>
+                    <h3 class="header">What Our Customer Saying?</h3>
+                    <img class="customer-photo" src="./img/customer.png" alt="customer photo" width="115">
+                    <svg class="customer-rating">
+                        <use href="./img/sprite-main-page.svg#star"></use>
+                    </svg>
+                    <p class="testimonial-text">Simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        simply dummy text of the
+                        printing and typesetting industry. Lorem Ipsum has been.</p>
+                    <p class="customer-name">Sara Taylor</p>
+                    <p>Customer</p>
+                    <svg class="icon-nav" width="35" height="8">
+                        <use href="./img/sprite-main-page.svg#navigation"></use>
+                    </svg>
+                    <ul class="testimonial-benefits">
+                        <li class="benefits-item">
+                            <h3 class="header">100%</h3>
+                            <p class="phrase">Organic</p>
+                        </li>
+                        <li class="benefits-item">
+                            <h3 class="header">285</h3>
+                            <p class="phrase">Active Product</p>
+                        </li>
+                        <li class="benefits-item">
+                            <h3 class="header">350+</h3>
+                            <p class="phrase">Organic Orchads</p>
+                        </li>
+                        <li class="benefits-item">
+                            <h3 class="header">25+</h3>
+                            <p class="phrase">Years of Farming</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Offer -->
+            <section class="our-offer">
+                <div class="offer-box container">
+                    <div class="offer-box-top">
+                        <div>
+                            <h2>Offer</h2>
+                            <h3 class="header">We Offer Organic For You</h3>
+                        </div>
+                        <a class="shop-btn-yellow" href="./shop.html">View All Product</a>
+                    </div>
+                    <ul class="product-list">
+                        <li class="product-card offer-card">
+                            <a class="product-link" href="./shop-pages/mung-bean-crop.html">
+                                <p class="product-category">Vegetable</p>
+                                <img src="./img/mung-bean-crop.png" alt="Mung Bean" width="279" height="324">
+                                <h4 class="product-name">Mung Bean</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$13.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card offer-card">
+                            <a class="product-link" href="./shop-pages/zucchini.html">
+                                <p class="product-category">Vegetable</p>
+                                <img src="./img/zucchini.png" alt="Zucchini" width="279" height="324">
+                                <h4 class="product-name">Zucchini</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$14.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card offer-card">
+                            <a href="./shop-pages/onion.html" class="product-link">
+                                <p class="product-category">Vegetable</p>
+                                <img src="./img/onion.png" alt="Onion" width="279" height="324">
+                                <h4 class="product-name">Onion</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$15.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card offer-card">
+                            <a href="./shop-pages/cabage.html" class="product-link">
+                                <p class="product-category">Vegetable</p>
+                                <img src="./img/cabage.png" alt="Cabage" width="279" height="324">
+                                <h4 class="product-name">Cabage</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$17.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Eco Friendly -->
+            <section class="eco-friendly">
+                <div class="eco-white-box">
+                    <h2>Eco Friendly</h2>
+                    <h3 class="header">Econis is a Friendly Organic Store</h3>
+                    <ul>
+                        <li class="eco-link-list">
+                            <a class="eco-link" href="./about-us.html">
+                                <h4>Start with Our Company First</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque
+                                    laudantium. Sed ut perspiciatis.
+                                </p>
+                            </a>
+                        </li>
+                        <li class="eco-link-list">
+                            <a class="eco-link" href="./projects.html">
+                                <h4>Learn How to Grow Yourself</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque
+                                    laudantium. Sed ut perspiciatis.
+                                </p>
+                            </a>
+                        </li>
+                        <li class="eco-link-list">
+                            <a class="eco-link" href="./recent-news.html">
+                                <h4>Farming Strategies of Today</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque
+                                    laudantium. Sed ut perspiciatis.
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Categories -->
+            <section class="categories">
+                <h2 hidden>Products</h2>
+                <ul class="categories-list">
+                    <li class="categories-item">
+                        <a class="categories-link" href="./shop.html">
+                            <div>
+                                <h3 class="categories-name">Organic Juice</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="categories-item">
+                        <a class="categories-link" href="./shop.html">
+                            <div>
+                                <h3 class="categories-name">Organic Food</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="categories-item">
+                        <a class="categories-link" href="./shop.html">
+                            <div>
+                                <h3 class="categories-name">Nuts Cookis</h3>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- News -->
+            <section class="news-section">
+                <div class="container">
+                    <div class="news-top-box">
+                        <div class="news-headers">
+                            <h2>News</h2>
+                            <h3 class="header">Discover weekly content about organic food, & more</h3>
+                        </div>
+                        <a class="shop-btn-white" href="./recent-news.html">More News</a>
+                    </div>
+                    <ul class="news-list">
+                        <li class="news-list-item">
+                            <div class="news-date-circle">
+                                <h4 class="news-header date">25 Nov</h4>
+                            </div>
+                            <div class="news-content">
+                                <div>
+                                    <svg width="18" height="20">
+                                        <use href="./img/sprite-main-page.svg#human"></use>
+                                    </svg>
+                                    <p class="news-maker">By Rachi Card</p>
+                                </div>
+                                <h4 class="news-header">The Benefits of Vitamin D & How to Get It</h4>
+                                <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                                <a href="" class="shop-btn-yellow read-more">Read More</a>
+                            </div>
+                        </li>
+                        <li class="news-list-item">
+                            <div class="news-date-circle">
+                                <h4 class="news-header date">25 Nov</h4>
+                            </div>
+                            <div class="news-content">
+                                <div> class="contacts-link"
+                                    <svg width="18" height="20">
+                                        <use href="./img/sprite-main-page.svg#human"></use>
+                                    </svg>
+                                    <p class="news-maker">By Rachi Card</p>
+                                </div>
+                                <h4 class="news-header">Our Favourite Summertime Tommeto</h4>
+                                <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                                <a href="" class="shop-btn-yellow read-more">Read More</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Subscribe -->
+            <section class="subscribe">
+                <div class="container subscribe-container">
+                    <h2 hidden>Subscribe</h2>
+                    <h3 class="header">Subscribe to our Newsletter</h3>
+                    <form class="subscribe-form">
+                        <input type="email" class="email-field" name="subscribe" id="subscribe"
+                            placeholder="Your Email Address">
+                        <button type="submit" class="shop-btn subscribe-btn" name="subscribe"
+                            id="subscribe">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-box">
+                <div class="contact-us">
+                    <a class="footer-contacts-header" href="./contact-us.html">Contact Us</a>
+                    <address class="footer-contacts">
+                        <ul class="footer-contacts-list">
+                            <li class="footer-contacts-item">
+                                <p>Email</p>
+                                <a class="contacts-link" href="mailto:needhelp@Organia.com">
+                                    <p class="contacts-content">needhelp@Organia.com</p>
+                                </a>
+                            </li>
+                            <li class="footer-contacts-item">
+                                <p>Phone</p>
+                                <a class="contacts-link" href="tel:666888888">
+                                    <p class="contacts-content">666 888 888</p>
+                                </a>
+                            </li>
+                            <li class="footer-contacts-item">
+                                <p>Address</p>
+                                <a class="contacts-link" href="https://goo.gl/maps/7VHVyaEhh1PaMQH6A" target="_blank"
+                                    rel="noreferrer noopener">
+                                    <p class="contacts-content">88 road, borklyn street, USA</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="footer-main">
+                    <a class="logo-group footer-logo" href="./index.html">
+                        <img src="./img/logo.svg" alt="company logo" width="36">
+                        <p class="logo">Organick</p>
+                    </a>
+                    <p>Simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum simply dummy text of the printing
+                    </p>
+                    <ul class="footer-link-list">
+                        <li class="footer-link-item">
+                            <a class="footer-soc-link" href="" target="_blank" rel="noreferrer noopener">
+                                <svg width="19" height="18">
+                                    <use href="./img/sprite-main-page.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-link-item">
+                            <a class="footer-soc-link" href="" target="_blank" rel="noreferrer noopener">
+                                <svg width="19" height="18">
+                                    <use href="./img/sprite-main-page.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-link-item">
+                            <a class="footer-soc-link" href="" target="_blank" rel="noreferrer noopener">
+                                <svg width="19" height="18">
+                                    <use href="./img/sprite-main-page.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-link-item">
+                            <a class="footer-soc-link" href="" target="_blank" rel="noreferrer noopener">
+                                <svg width="19" height="18">
+                                    <use href="./img/sprite-main-page.svg#pinterest"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="utility-pages">
+                    <h3>Utility pages</h3>
+                    <ul class="utility-page-list">
+                        <li>
+                            <p>Style Guide</p>
+                        </li>
+                        <li>
+                            <p>404 Not Found</p>
+                        </li>
+                        <li>
+                            <p>Password Protected</p>
+                        </li>
+                        <li>
+                            <p>Licences</p>
+                        </li>
+                        <li>
+                            <p>Changelog</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="copyright-content">Copyright © <span>Organick</span> | Designed by <span>VictorFlow</span>
+                    Templates - Powered by
+                    <span>Webflow</span>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

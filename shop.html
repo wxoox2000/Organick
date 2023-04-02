@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <title>Shop</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+        <header>
+            <div class="header-container">
+                <a class="logo-group" href="./index.html">
+                    <img src="./img/logo.svg" alt="company logo" width="36">
+                    <p class="logo">Organick</p>
+                </a>
+                <nav class="site-nav">
+                    <ul class="nav-list">
+                        <li class="nav-list-item"><a class="nav-link" href="./index.html">Home</a></li>
+                        <li class="nav-list-item"><a class="nav-link" href="./about-us.html">About</a></li>
+                        <li class="nav-list-page">
+                            <a class="nav-link" href="">Pages</a>
+                            <svg width="10" height="5">
+                                <use href="./img/sprite-main-page.svg#dropdown-icon"></use>
+                            </svg>
+                            <ul class="dropdown-list">
+                                <li class="dropdown-list-item"><a class="dropdown-link"
+                                        href="./services.html">Services</a>
+                                </li>
+                                <li class="dropdown-list-item"><a class="dropdown-link" href="./our-team.html">Our
+                                        Team</a>
+                                </li>
+                                <li class="dropdown-list-item"><a class="dropdown-link" href="contact-us.html">Contact
+                                        Us</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-list-item"><a class="nav-link" href="./shop.html">Shop</a></li>
+                        <li class="nav-list-item"><a class="nav-link" href="./projects.html">Projects</a></li>
+                        <li class="nav-list-item"><a class="nav-link" href="./recent-news.html">News</a></li>
+                    </ul>
+                </nav>
+                <ul class="client-tools">
+                    <li class="search-box">
+                        <form class="search-form" autocomplete="on">
+                            <input class="search-input" type="text" id="search" name="search">
+                            <button class="search-btn" type="submit" id="search" name="search">
+                                <svg width="21" height="21">
+                                    <use href="./img/sprite-main-page.svg#search"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </li>
+                    <li class="cart-item"><a class="cart" href=""><span>Cart (0)</span></a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section class="page-name shop">
+                <h1 class="page-header">Shop</h1>
+            </section>
+            <!-- Shop -->
+            <section class="shop-page-shop-section">
+                <div class="container">
+                    <ul class="shop-page-product-list">
+                        <li class="product-card">
+                            <a class="product-link" href="./shop-pages/calabrese-broccoli.html">
+                                <p class="product-category">Vegetable</p>
+                                <img src="./img/broccoli.png" alt="Calabrese Broccoli" width="279" height="324">
+                                <h4 class="product-name">Calabrese Broccoli</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$13.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a class="product-link" href="./shop-pages/fresh-banana-fruits.html">
+                                <p class="product-category">Fresh</p>
+                                <img src="./img/banana.png" alt="Fresh Banana Fruits" width="279" height="324">
+                                <h4 class="product-name">Fresh Banana Fruits</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$14.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/pistachios.html" class="product-link">
+                                <p class="product-category">Millets</p>
+                                <img src="./img/pistachios.png" alt="Pistachios" width="279" height="324">
+                                <h4 class="product-name">Pistachios</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$15.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/vegan-red-tomato.html" class="product-link">
+                                <p class="product-category">Vegetable</p>
+                                <img src="./img/tomato.png" alt="Vegan Red Tomato" width="279" height="324">
+                                <h4 class="product-name">Vegan Red Tomato</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$17.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/mung-bean.html" class="product-link">
+                                <p class="product-category">Health</p>
+                                <img src="./img/mung-bean.png" alt="Mung Bean" width="279" height="324">
+                                <h4 class="product-name">Mung Bean</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$11.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/brown-hazelnut.html" class="product-link">
+                                <p class="product-category">Nuts</p>
+                                <img src="./img/hazelnut.png" alt="Brown Hazelnut" width="279" height="324">
+                                <h4 class="product-name">Brown Hazelnut</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$12.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/eggs.html" class="product-link">
+                                <p class="product-category">Fresh</p>
+                                <img src="./img/eggs.png" alt="Eggs" width="279" height="324">
+                                <h4 class="product-name">Eggs</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$17.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/zelco-suji-elaichi-rusk.html" class="product-link">
+                                <p class="product-category">Fresh</p>
+                                <img src="./img/bread.png" alt="Zelco Suji Elaichi Rusk" width="279" height="324">
+                                <h4 class="product-name">Zelco Suji Elaichi Rusk</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$15.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/mung-bean-veg.html" class="product-link">
+                                <p class="product-category">Health</p>
+                                <img src="./img/mung-bean-veg.jpg" alt="Mung Bean" width="279" height="324">
+                                <h4 class="product-name">Mung Bean</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$11.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/cashew.html" class="product-link">
+                                <p class="product-category">Nuts</p>
+                                <img src="./img/cashew.png" alt="Cashew" width="279" height="324">
+                                <h4 class="product-name">Cashew</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$12.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/fresh-corn.html" class="product-link">
+                                <p class="product-category">Fresh</p>
+                                <img src="./img/fresh-corn.png" alt="fresh corn" width="279" height="324">
+                                <h4 class="product-name">Fresh Corn</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$17.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/organic-almonds.html" class="product-link">
+                                <p class="product-category">Fresh</p>
+                                <img src="./img/organic-almonds.png" alt="Organic Almonds" width="279" height="324">
+                                <h4 class="product-name">Organic Almonds</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$15.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a class="product-link" href="./shop-pages/mung-bean-crop.html">
+                                <p class="product-category">Vegetable</p>
+                                <img src="./img/mung-bean-crop.png" alt="Mung Bean" width="279" height="324">
+                                <h4 class="product-name">Mung Bean</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$13.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a class="product-link" href="./shop-pages/zucchini.html">
+                                <p class="product-category">Vegetable</p>
+                                <img src="./img/zucchini.png" alt="Zucchini" width="279" height="324">
+                                <h4 class="product-name">Zucchini</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$14.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/onion.html" class="product-link">
+                                <p class="product-category">Vegetable</p>
+                                <img src="./img/onion.png" alt="Onion" width="279" height="324">
+                                <h4 class="product-name">Onion</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$15.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-card">
+                            <a href="./shop-pages/cabage.html" class="product-link">
+                                <p class="product-category">Vegetable</p>
+                                <img src="./img/cabage.png" alt="Cabage" width="279" height="324">
+                                <h4 class="product-name">Cabage</h4>
+                                <div>
+                                    <p class="product-price"><span>$20.00</span>$17.00</p>
+                                    <svg class="product-rating">
+                                        <use href="./img/sprite-main-page.svg#star"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+            <!-- Subscribe -->
+            <section class="subscribe subscribe-about-us-page">
+                <div class="container subscribe-container">
+                    <h2 hidden>Subscribe</h2>
+                    <h3 class="header">Subscribe to our Newsletter</h3>
+                    <form class="subscribe-form">
+                        <input type="email" class="email-field" name="subscribe" id="subscribe"
+                            placeholder="Your Email Address">
+                        <button type="submit" class="shop-btn subscribe-btn" name="subscribe"
+                            id="subscribe">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-box">
+                <div class="contact-us">
+                    <a class="footer-contacts-header" href="./contact-us.html">Contact Us</a>
+                    <address class="footer-contacts">
+                        <ul class="footer-contacts-list">
+                            <li class="footer-contacts-item">
+                                <p>Email</p>
+                                <a class="contacts-link" href="mailto:needhelp@Organia.com">
+                                    <p class="contacts-content">needhelp@Organia.com</p>
+                                </a>
+                            </li>
+                            <li class="footer-contacts-item">
+                                <p>Phone</p>
+                                <a class="contacts-link" href="tel:666888888">
+                                    <p class="contacts-content">666 888 888</p>
+                                </a>
+                            </li>
+                            <li class="footer-contacts-item">
+                                <p>Address</p>
+                                <a class="contacts-link" href="https://goo.gl/maps/7VHVyaEhh1PaMQH6A" target="_blank"
+                                    rel="noreferrer noopener">
+                                    <p class="contacts-content">88 road, borklyn street, USA</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="footer-main">
+                    <a class="logo-group footer-logo" href="./index.html">
+                        <img src="./img/logo.svg" alt="company logo" width="36">
+                        <p class="logo">Organick</p>
+                    </a>
+                    <p>Simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum simply dummy text of the printing
+                    </p>
+                    <ul class="footer-link-list">
+                        <li class="footer-link-item">
+                            <a class="footer-soc-link" href="" target="_blank" rel="noreferrer noopener">
+                                <svg width="19" height="18">
+                                    <use href="./img/sprite-main-page.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-link-item">
+                            <a class="footer-soc-link" href="" target="_blank" rel="noreferrer noopener">
+                                <svg width="19" height="18">
+                                    <use href="./img/sprite-main-page.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-link-item">
+                            <a class="footer-soc-link" href="" target="_blank" rel="noreferrer noopener">
+                                <svg width="19" height="18">
+                                    <use href="./img/sprite-main-page.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-link-item">
+                            <a class="footer-soc-link" href="" target="_blank" rel="noreferrer noopener">
+                                <svg width="19" height="18">
+                                    <use href="./img/sprite-main-page.svg#pinterest"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="utility-pages">
+                    <h3>Utility pages</h3>
+                    <ul class="utility-page-list">
+                        <li>
+                            <p>Style Guide</p>
+                        </li>
+                        <li>
+                            <p>404 Not Found</p>
+                        </li>
+                        <li>
+                            <p>Password Protected</p>
+                        </li>
+                        <li>
+                            <p>Licences</p>
+                        </li>
+                        <li>
+                            <p>Changelog</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="copyright-content">Copyright © <span>Organick</span> | Designed by <span>VictorFlow</span>
+                    Templates - Powered by
+                    <span>Webflow</span>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
